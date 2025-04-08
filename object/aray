@@ -1,17 +1,17 @@
 // Create an array with three student objects
 let students = [
   {
-    name: "Alice",
+    name: "Bella",
     age: 20,
     isEnrolled: true
   },
   {
-    name: "Bob",
+    name: "Elana",
     age: 22,
     isEnrolled: false
   },
   {
-    name: "Charlie",
+    name: "Liam",
     age: 19,
     isEnrolled: true
   }

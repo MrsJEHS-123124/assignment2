@@ -1,0 +1,36 @@
+// Create an array with three student objects
+let students = [
+  {
+    name: "Alice",
+    age: 20,
+    isEnrolled: true
+  },
+  {
+    name: "Bob",
+    age: 22,
+    isEnrolled: false
+  },
+  {
+    name: "Charlie",
+    age: 19,
+    isEnrolled: true
+  }
+];
+
+// Display the whole array
+console.log(students);
+
+// Display the name of the first student
+console.log("Name of the first student:", students[0].name);
+
+// Display the age of the second student
+console.log("Age of the second student:", students[1].age);
+
+// Display whether the third student is enrolled
+console.log("Is the third student enrolled?", students[2].isEnrolled);
+
+// Use typeof to log the data types of each property of the first student
+console.log("Data types of the first student's properties:");
+console.log("Name:", typeof students[0].name);
+console.log("Age:", typeof students[0].age);
+console.log("Is Enrolled:", typeof students[0].isEnrolled);
